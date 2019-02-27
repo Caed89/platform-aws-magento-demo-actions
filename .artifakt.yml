@@ -65,7 +65,7 @@ actions:
       -
         code: branch
         name: The branch (if source is a repo)
-        type: textarea
+        type: text
         default: master
         validation:
           values: ["master"]
@@ -103,7 +103,7 @@ inputs:
     name: Database name
     description: Choose your database name
     category: data
-    type: text
+    type: textarea
     default: mydbname
     required:  true
     validation:
