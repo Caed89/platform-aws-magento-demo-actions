@@ -1,7 +1,7 @@
 title: Demo Magento 2 on AWS
 tag: 5.0.0
 type: free
-artifakt_version: "0.3"
+artifakt_version: "0.4"
 description: Demo Magento 2 on AWS using Bitnami image.
 cloud_provider: aws
 build_engine: terraform
@@ -65,7 +65,7 @@ actions:
       -
         code: branch
         name: The branch (if source is a repo)
-        type: text
+        type: textarea
         default: master
         validation:
           values: ["master"]
